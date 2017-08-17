@@ -1,19 +1,19 @@
 clear
 addpath('function')
 
-load('C:\Data\MATLAB\HSIData\Botswana\BWs1.mat')
+load('C:\Data\MATLAB\HSIData\Botswana\BW.mat')
 alpha=500;                              %regularization parameter
 beta =1e-5;                             %TV regularization parameter
 gamma=500;                              %regularization parameter
 mu   =1e-3;                             %penalty parameter
 lam  =1e-5;                             %penalty parameter
-% load('C:\Data\MATLAB\HSIData\IP\IPu1.mat')
+% load('C:\Data\MATLAB\HSIData\IP\IP.mat')
 % alpha=600;                              %regularization parameter
 % beta =1e-5;                             %TV regularization parameter
 % gamma=600;                              %regularization parameter
 % mu   =1e-3;                             %penalty parameter
 % lam  =1e-5;                             %penalty parameter
-% load('C:\Data\MATLAB\HSIData\DC\DCs1.mat')
+% load('C:\Data\MATLAB\HSIData\DC\DC.mat')
 % alpha=500;                              %regularization parameter
 % beta=5e-5;                              %TV regularization parameter
 % gamma=100;                              %regularization parameter
